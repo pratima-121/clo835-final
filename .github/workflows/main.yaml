@@ -81,7 +81,7 @@ jobs:
           -e DBPORT=3306 \
           -e S3_BUCKET_NAME=clo835-background-imgs \
           -e S3_OBJECT_KEY=bg.jpg \
-          -e MY_NAME="Ajay" \
+          -e MY_NAME="pratima" \
           -e AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} \
           -e AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} \
           -e AWS_SESSION_TOKEN=${{ secrets.AWS_SESSION_TOKEN }} \
